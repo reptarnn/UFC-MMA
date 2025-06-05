@@ -1,0 +1,119 @@
+body {
+            font-family: Arial, sans-serif;
+            background: #1b1b1b;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            transition: background-color 0.5s;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #e03131;
+            margin-bottom: 5px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        button {
+            background-color: #e03131;
+            border: none;
+            padding: 12px 20px;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            user-select: none;
+            position: relative;
+        }
+        button:hover {
+            background-color: #b02020;
+            transform: scale(1.05);
+        }
+        button.active {
+            background-color: #9a1515;
+            box-shadow: 0 0 10px #e03131aa;
+        }
+        #contenido {
+            background-color: #292929;
+            padding: 20px;
+            border-radius: 8px;
+            min-height: 280px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px #e03131aa;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+        #contenido.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #contenido img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 15px;
+            box-shadow: 0 0 10px #e03131aa;
+        }
+        #contador {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        #volverInicio {
+            display: block;
+            margin: 25px auto 0 auto;
+            background: #444;
+            color: #eee;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+            text-align: center;
+            transition: background-color 0.3s;
+            user-select: none;
+        }
+        #volverInicio:hover {
+            background: #666;
+        }
+        /* Estilos del cuestionario */
+        form {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+        }
+        input[type="radio"] {
+            margin-right: 8px;
+        }
+        .btn-enviar {
+            margin-top: 20px;
+            background-color: #e03131;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn-enviar:hover {
+            background-color: #b02020;
+        }
+        .mensaje-final {
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #a6f07a;
+            text-align: center;
+            font-weight: bold;
+        }

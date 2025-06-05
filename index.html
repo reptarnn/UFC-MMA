@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UFC Dinámico Mejorado con Cuestionario</title>
+   <link rel="stylesheet" href="index.css">
+   <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ultimate Fighting Championship (UFC)</h1>
+        <p>Descubre información dinámica e interactiva sobre la UFC</p>
+    </header>
+
+    <nav>
+        <button id="btn-historia" onclick="mostrarInfo('historia')">Historia</button>
+        <button id="btn-campeones" onclick="mostrarInfo('campeones')">Campeones</button>    
+        <button id="btn-reglas" onclick="mostrarInfo('reglas')">Reglas</button>
+        <!-- Cambié el botón "Próximo Evento" por "Cuestionario" -->
+        <button id="btn-cuestionario" onclick="mostrarCuestionario()">Cuestionario</button>
+        <button id="btn-peleadoresFamosos" onclick="mostrarInfo('peleadoresFamosos')">Peleadores Famosos</button>
+        <button id="btn-estadísticas" onclick="mostrarInfo('estadísticas')">Estadísticas</button>
+    </nav>
+
+    <section id="contenido">
+        <p>Haz clic en los botones para ver información sobre UFC.</p>
+    </section>
+    
+    <div id="volverInicio" onclick="limpiarContenido()" title="Volver al inicio">Volver al inicio</div>
+</body>
+</html>

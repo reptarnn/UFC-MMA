@@ -4,7 +4,7 @@
                     <h2>Historia de la UFC</h2>
                     <p>La UFC fue fundada en 1993 con la idea de encontrar el arte marcial más efectivo en combate real. Desde entonces, ha evolucionado hasta convertirse en la principal organización de artes marciales mixtas (MMA) en el mundo.</p>
                 `,
-                imagen: '..//imagenes/historia.jpg'
+                imagen: 'imagenes/historia.jpg'
             },
             campeones: {
                 texto: `
@@ -17,7 +17,7 @@
                         <li>Peso ligero: Charles Oliveira</li>
                     </ul>
                 `,
-                imagen: '..//imagenes/campeones.jpg'
+                imagen: 'imagenes/campeones.jpg'
             },
             reglas: {
                 texto: `
@@ -29,7 +29,7 @@
                         <li>Ganador por nocaut, sumisión o decisión de jueces</li>
                     </ul>
                 `,
-                imagen: '..//imagenes/reglas.jpg'
+                imagen: 'imagenes/reglas.jpg'
             },
             peleadoresFamosos: {
                 texto: `
@@ -42,14 +42,14 @@
                         <li>Chuck Liddell</li>
                     </ol>
                 `,
-                imagen: '..//imagenes/peleadores.png'
+                imagen: 'imagenes/peleadores.png'
             },
             estadísticas: {
                 texto: `
                     <h2>Estadísticas UFC</h2>
                     <p>La UFC cuenta con más de 500 peleadores activos, más de 400 eventos realizados y millones de fanáticos en todo el mundo.</p>
                 `,
-                imagen: '..//imagenes/estadisticas.png'
+                imagen: 'imagenes/estadisticas.png'
             }
         };
 
